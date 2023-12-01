@@ -1,0 +1,86 @@
+.displayweather {
+  margin-top: 3rem;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.displayweather .maincard {
+  width: 80%;
+  margin-top: 20px;
+  align-self: center;
+  padding: 3rem;
+  border-radius: 10px;
+  position: relative;
+  background: rgb(245, 242, 242);
+  
+}
+
+.displayweather .maincard .cardtitle {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 1.3rem;
+  font-family: "Papyrus";
+}
+
+.displayweather .maincard .cardsubtitle {
+  position: absolute;
+  left: 10px;
+  color: grey;
+  margin-top: -0.25rem;
+  text-transform: uppercase;
+}
+
+.displayweather h1 {
+  font-size: 3.5rem;
+  margin: 1rem;
+}
+
+.displayweather .weather-icon {
+  width: 50px;
+  position: absolute;
+  top: 7.5rem;
+  left: 400px;
+}
+
+.displayweather .weather-main {
+  position: absolute;
+  top: 9.5rem;
+  left: 440px;
+  font-size: 1.1rem;
+  font-family: "Papyrus";
+}
+
+
+.displayweather .weather-details {
+  margin-left: 50px;
+  margin-right: 50px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 15px;
+  margin-top: 10px;
+}
+
+.displayweather .weather-details .section1 {
+  justify-self: left;
+  width: 100%;
+}
+
+.displayweather .weather-details .section2 {
+  justify-self: right;
+  width: 100%;
+}
+
+h4 {
+  text-align: center;
+  margin-right: 10px;
+  font-size: 1.2rem;
+} 
+
+td {
+  padding: 1rem;
+}
+
+.displayweather .weather-details span {
+  font-size: 1rem;
+}
