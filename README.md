@@ -7,3 +7,4 @@ Build a weather app in ReactJS using Open Weather API.
 1. npm install 
 2. npm start
 3. App will start on http://localhost:3000
+4. Update the API key value -> src -> components -> Weather.js (line 12)
