@@ -8,7 +8,7 @@
 }
 .weather .title {
   font-size: 2.5rem;
-  font-family: "Papyrus";
+  font-family: "Maison Neue";
 }
 .weather form {
   margin-top: 3rem;
@@ -18,7 +18,7 @@
   border: 0.1rem dashed rgb(121, 73, 73);
   margin-right: 10px;
   text-align: center;
-  font-family: "Papyrus";
+  font-family: "Maison Neue";
   text-transform: capitalize;
 }
 
@@ -28,7 +28,7 @@
 }
 
 .weather .getweather {
-  font-family: "Papyrus";
+  font-family: "Maison Neue";
   margin-left: 10px;
   margin-top: 2rem;
   padding: 10px;
